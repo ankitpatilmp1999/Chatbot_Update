@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import AdminLogin from '../Login/AdminLogin';
 import UserLogin from '../Login/UserLogin';
+import Chatting from '../components/chat/Chatting';
 
 const Render = () => {
     const [selectedOption, setSelectedOption] = useState('user');
@@ -47,6 +48,7 @@ const Render = () => {
                         <UserLogin />
                     )}
                 </div>
+                <Chatting />
             </div>
         </>
     );

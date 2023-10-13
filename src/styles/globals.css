@@ -17,3 +17,6 @@ border-radius: 8px;
 .ant-drawer-body{
     background-color: #bcbcbc;
 }
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
